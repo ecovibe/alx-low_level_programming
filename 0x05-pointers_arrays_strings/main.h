@@ -12,3 +12,4 @@ int _atoi(char *s);
 int _putchar(char c);
 void rev_string(char *s);
 void swap_char(char *a, char *b);
+int array[5];
