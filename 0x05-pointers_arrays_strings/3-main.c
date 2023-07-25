@@ -1,15 +1,16 @@
-include "main.h"
-
+#include "main.h"
 /**
- * main - check the code
+ *_puts - prints a string
+ * @str: string to print
  *
- * Return: Always 0.
+ * Description: prints a string
+ * On success: return the number of characters printed
  */
-int main(void)
-{
-    char *str;
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    _puts(str);
-    return (0);
+void _puts(char *str)
+{
+while (*str)
+_putchar(*str++);
+
+_putchar('\n');
 }
