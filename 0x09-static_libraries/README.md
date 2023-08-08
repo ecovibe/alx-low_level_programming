@@ -1,1 +1,1 @@
-archives
+static libraries
